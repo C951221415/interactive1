@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+
+.main-content{
+	background-color: #73d6d9;
+    background-image: url("../css/bg_hand.png");
+    background-position: center top;
+    background-repeat: repeat-y;
+    background-size: 100% auto;
+    padding: 335px 0;
+}
+.human-box {
+    background-image: url("../css/lotus.png");
+    background-position: center top 40%;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    height: 100%;
+}
+.human-box img {
+    margin: 0 auto;
+}
+.img-responsive.legs {
+    left: 0;
+    position: absolute;
+    right: 0;
+}
+.img-responsive.sample {
+    margin-top: 72px;
+    position: relative;
+}
+.blue-hr {
+    background-color: #0000ff;
+    padding: 27px;
+    position: relative;
+    top: 35px;
+    z-index: 2;
+}

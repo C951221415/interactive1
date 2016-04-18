@@ -1,0 +1,30 @@
+#container {
+	width: 1200px;
+	height:4000px;
+	margin:auto;
+}
+
+@font-face {
+  font-family: 'Impact.ttf';
+  src url('Impact.ttf') format('truetype'); 
+}
+
+
+#main {
+	font-family: Impact;
+	font-size:250px;
+	text-align: center;
+}
+
+#main2 {
+	font-family: Impact;
+	font-size:250px;
+	text-align: center;
+}
+
+
+#box {
+	font-family: Impact;
+	font-size:250px;
+	text-align: center;
+}

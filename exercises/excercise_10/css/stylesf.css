@@ -1,0 +1,48 @@
+body {
+  background: #ff5f2a;
+}
+
+@keyframes slide {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  50% {
+    left: 244px;
+    top: 100px;
+  }
+  100% {
+    left: 488px;
+    top: 0;
+  }
+}
+
+.background {
+  background: #33348e;
+  border-radius: 20px;
+  height: 300px;
+  position: relative;
+  min-width: 1000px;
+}
+
+.background:hover .dot{
+  animation-name: slide;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.dot {
+   margin-left: 900px;
+   margin-top: 400px;
+   height: 200px;
+   width: 200px;
+   font-family: Univers;
+   font-weight: bold;
+   color: white;
+   font-size: 72;
+   background: #ff5f2a;
+   animation-iteration-count: infinite;
+}

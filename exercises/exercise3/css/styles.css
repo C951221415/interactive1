@@ -1,0 +1,30 @@
+html
+{
+  overflow: hidden;
+  height: 99%;
+}
+                         
+body
+{
+  background: $ffffff;
+  height: 99%;
+  margin: 0;
+  padding: 0;
+  line-height: 150%;
+  text-align: center;
+}
+
+*
+{
+  font-size: 8pt; 
+  font-family: Tahoma, Verdana, sans-serif; 
+  color: #000000;
+  text-align: left;
+}
+
+
+
+html, body {
+text-align: center;
+}
+p {text-align: left;}
