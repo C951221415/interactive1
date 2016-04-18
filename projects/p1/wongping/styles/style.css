@@ -1,0 +1,45 @@
+* 
+
+{
+
+margin:0;
+padding:0px;
+ background-image: url("assets/pic5_2.jpg");
+}
+
+ul {
+list-style: none;
+}
+
+li {
+display:inline-block;
+text-align:center;
+}
+
+img {
+max-width: 100%;
+}
+
+nav {
+height: 30px;
+width: 100%;
+
+
+}
+
+nav li a {
+text-align:center;
+padding:15px;
+
+}
+
+p {
+width:500px;
+margin-left:auto;
+margin-right:auto;
+background-color: orange;
+}
+
+body {
+  
+}
